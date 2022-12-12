@@ -1,0 +1,39 @@
+* {
+  font-family: "Inter";
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 280px;
+  width: 100%;
+  background-color: #154f71;
+}
+
+.menu {
+  width: 450px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+span {
+  color: #fff;
+  font-weight: 600;
+}
+.sobre.clientes.perfil.contato {
+  width: 70px;
+  text-align: center;
+}
+.menu:hover {
+  background-color: #04213f;
+  transition-duration: 2s;
+}
+
+.photo {
+  width: 242px;
+  // border-radius:0% 100% 9% 91% / 0% 100% 0% 100% ;
+  margin: -25vh 0 0 5vw;
+  background-color: #137B87;
+}
